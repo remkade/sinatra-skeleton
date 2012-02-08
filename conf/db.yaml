@@ -1,0 +1,20 @@
+--- 
+development: 
+	database:
+		adapter: sqlite3 
+		database: db/development.sqlite3
+		username: 
+		password: 
+		hostname:
+testing: 
+		adapter: sqlite3 
+		database: db/testing.sqlite3
+		username: 
+		password: 
+		hostname:
+production: 
+		adapter: sqlite3 
+		database: db/production.sqlite3
+		username: 
+		password: 
+		hostname:
